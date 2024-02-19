@@ -60,8 +60,7 @@
   font-weight: 300;
   font-size: 14px;
   line-height: 27px;
-  -webkit-text-decoration-line: line-through;
-          text-decoration-line: line-through;
+  text-decoration-line: line-through;
   opacity: 0.5;
 }
 .block_shop .flex_block_shop_products .first_column_ipad_redcolumn .box_1 .four_stars_without_one {

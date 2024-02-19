@@ -94,8 +94,7 @@
   font-weight: 300;
   font-size: 14px;
   line-height: 27px;
-  -webkit-text-decoration-line: line-through;
-          text-decoration-line: line-through;
+  text-decoration-line: line-through;
   color: #030D15;
   opacity: 0.5;
 }
@@ -178,8 +177,7 @@
   font-weight: 300;
   font-size: 14px;
   line-height: 27px;
-  -webkit-text-decoration-line: line-through;
-          text-decoration-line: line-through;
+  text-decoration-line: line-through;
   color: #030D15;
   opacity: 0.5;
 }
