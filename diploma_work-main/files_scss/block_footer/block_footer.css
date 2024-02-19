@@ -1,0 +1,92 @@
+footer {
+  background: #030D15;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 0px 50px 0px;
+}
+footer .block_main {
+  width: 261px;
+}
+footer .block_main .icon_linkedin {
+  padding-left: 16px;
+}
+footer .block_main .p_block_main {
+  font-family: "Hind Siliguri";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #FFFFFF;
+  opacity: 0.6;
+  padding-top: 22px;
+}
+footer .first_block_information {
+  display: flex;
+  flex-direction: column;
+}
+footer .first_block_information .h3_first_block_information {
+  font-family: "Hind Siliguri";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  margin-bottom: 26px;
+}
+footer .first_block_information .first_block_information_link {
+  font-family: "Hind Siliguri";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #FFFFFF;
+  opacity: 0.6;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+footer .second_block_about_the_store {
+  display: flex;
+  flex-direction: column;
+  width: 261px;
+}
+footer .second_block_about_the_store .h3_second_block_about_the_store {
+  font-family: "Hind Siliguri";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+footer .second_block_about_the_store .p_second_block_about_the_store {
+  font-family: "Hind Siliguri";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #FFFFFF;
+  opacity: 0.6;
+  padding-top: 26px;
+}
+footer .second_block_about_the_store .a_second_block_about_the_store {
+  font-family: "Hind Siliguri";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding-top: 14px;
+}
+footer .footer_social_icons {
+  display: flex;
+  width: 175px;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+footer .switch_language {
+  width: 77px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 53px;
+}
+footer .switch_language .text_switch_language {
+  font-family: "Hind Siliguri";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: #FFFFFF;
+}

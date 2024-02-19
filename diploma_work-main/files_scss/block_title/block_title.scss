@@ -1,0 +1,43 @@
+.block_title {
+    width: 1236px;
+    margin: 0 auto;
+    margin-top: 129px;
+    display: flex;
+
+    .favorite_brands {
+        font-family: 'Hind Siliguri';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.145em;
+        text-transform: uppercase;
+        color: #C72535;
+        opacity: 0.6;
+    }
+
+    .title_h1 {
+        width: 555px;
+        font-family: 'Hind Siliguri';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 61px;
+        line-height: 73px;
+
+        .title_span {
+            color: #247CC0;
+        }
+    }
+
+    .title_describe {
+        width: 515px;
+        font-family: 'Hind Siliguri';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        color: #030D15;
+        opacity: 0.6;
+        padding-top: 29px;
+    }
+}

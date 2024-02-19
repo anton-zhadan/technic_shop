@@ -1,0 +1,64 @@
+.block_about_product_main {
+    background: #F4F9FC;
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    .block_about_product {
+        margin: 0 auto;
+        width: 1000px;
+
+        .p_about_products {
+            text-align: center;
+            font-family: 'Hind Siliguri';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 23px;
+            letter-spacing: 0.145em;
+            text-transform: uppercase;
+            color: #C72535;
+            opacity: 0.6;
+        }
+
+        .h2_about_products {
+            text-align: center;
+            font-family: 'Hind Siliguri';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 44px;
+            line-height: 71px;
+            color: #030D15;
+            margin-bottom: 50px;
+        }
+
+        .describe_opacity_about_product {
+            text-align: center;
+            font-family: 'Hind Siliguri';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #030D15;
+            opacity: 0.6;
+            margin-bottom: 50px;
+        }
+
+        .other_text_posibilieties_about_product {
+            text-align: center;
+            font-family: 'Hind Siliguri';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 27px;
+            color: #030D15;
+            margin-bottom: 20px;
+        }
+
+        .icon_check_mark_about_product {
+            position: relative;
+            top: 5px;
+            right: 5px;
+        }
+    }
+}

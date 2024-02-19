@@ -1,0 +1,84 @@
+header {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    justify-content: space-around;
+
+    .logo_header {
+            padding-left: 230px;
+        }
+
+    .header_navigation_menu {
+        height: 23px;
+        padding-top: 10px;
+
+        a {
+            padding-left: 40px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 23px;
+            text-transform: uppercase;
+            color: #030D15;
+            font-family: Hind Siliguri;
+
+            .vector_header {
+                display: inline-block;
+                padding-bottom: 2px;
+                padding-left: 8px;
+            }
+        }
+
+        .home {
+            padding-left: 0px;
+        }
+    }
+
+    .icons_for_user {
+        display: flex;
+        // padding-right: 130px;
+
+        .light_theme_icon_header {
+            height: 20px;
+            margin-top: 10px;
+
+           .icon_loupe {
+                padding-right: 30px;
+            }
+            
+            .loupe_dark_theme {
+                display: none;
+            }
+        }
+        
+        
+
+        .icon_basket {
+            padding-right: 24px;
+            cursor: pointer;
+        }
+
+        .icon_basket:hover {
+            background-color: yellow;
+        }
+
+        .cart_dark_theme {
+            display: none;
+        }
+    }
+
+    .switch_mode {
+        margin-right: 50px;
+        width: 60px;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        background-color: black;
+        color: white;
+        font-family: Hind Siliguri;
+    }
+
+    .switch_mode:hover {
+        background-color: rgb(45, 50, 102);
+    }
+}

@@ -1,0 +1,73 @@
+.contact_us {
+    background: #F4F9FC;
+    display: flex;
+
+    .first_block_info_contact_us {
+        padding-top: 100px;
+        padding-left: 320px;
+        padding-bottom: 100px;
+
+        .first_p {
+            font-family: 'Hind Siliguri';
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 23px;
+            letter-spacing: 0.145em;
+            text-transform: uppercase;
+            color: #C72535;
+            opacity: 0.6;
+        }
+
+        .second_h2 {
+            font-family: 'Hind Siliguri';
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 40px;
+            padding-bottom: 8px;
+        }
+
+        .third_p {
+            font-family: 'Hind Siliguri';
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            opacity: 0.6;
+        }
+    }
+
+    .second_block_info_contact_us {
+        display: flex;
+        margin-top: 130px;
+        margin-left: 123px;
+
+        .input_email_address {
+            width: 457px;
+            height: 50px;
+            box-sizing: border-box;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            font-family: 'Hind Siliguri';
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            color: #030D15;
+            opacity: 0.4;
+            padding-top: 15px;
+            padding-left: 26px;
+            padding-bottom: 14px;
+        }
+
+        .input_submit_subscribe {
+            height: 50px;
+            border: none;
+            width: 122px;
+            background: #247CC0;
+            font-family: 'Hind Siliguri';
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 23px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    }
+}

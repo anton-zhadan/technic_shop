@@ -1,0 +1,97 @@
+// .cart {
+//     width: 60%;
+//     height: 650px;
+//     background: silver;
+//     position: absolute;
+//     top: 0;
+//     display: none;
+
+//     .cart_field {
+//         border: 1px solid orange;
+//         border-radius: 5px;
+//         background-color: white;
+//         width: 80%;
+//         min-height: 460px;
+//         display: flex;
+//         // justify-content: center;
+//         // align-items: center;
+//         flex-direction: column;
+//         margin: 0 auto;
+//         flex-wrap: wrap;
+//         margin-top: 30px;
+//         // overflow: auto;
+//     }
+
+//     .close_btn {
+//         width: 200px;
+//         height: 50px;
+//         background: white;
+//         font-size: 22px;
+//         padding: 10px 10px 10px 50px ;
+//         margin: 0 auto;
+//         border: none;
+//         border-radius: 5px;
+//         cursor: pointer;
+//         // text-align: center;
+//     }
+
+//     .close_btn:hover {
+//         background-color: gray;
+//     }
+// }
+
+
+.cart_for_products {
+    display: none;
+    border: 5px solid rgb(85, 204, 30);
+    background-color: aqua;
+    margin: 0 auto;
+    
+
+    .card_title {
+        font-size: 24px;
+        margin: 0 auto;
+    }
+
+    .counter-wrapper {
+        display: flex;
+        margin-left: 10px;
+        margin-top: 10px;
+
+        .items__control {
+            width: 30px;
+            height: 20px;
+            text-align: center;
+            cursor: pointer;
+            display: block;
+            border-radius: 5px;
+            z-index: 1;
+        }
+
+        .items__current {
+            background-color: red;
+            width: 30px;
+            height: 20px;
+            text-align: center;
+            border-radius: 5px;
+        }
+    }
+
+    .close_cart {
+        margin: 0 auto;
+        width: 100px;
+        height: 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        border: none;
+        margin-bottom: 5px;
+    }
+
+    .close_cart:hover {
+        background-color: chocolate;
+        color: white;
+    }
+}
+
+
+

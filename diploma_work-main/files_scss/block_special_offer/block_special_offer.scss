@@ -1,0 +1,209 @@
+.block_special_offer {
+    display: flex;
+    width: 1235px;
+    margin: 0 auto;
+    margin-top: 138px;
+
+    .block_with_special_offer_drone {
+        display: flex;
+        width: 580px;
+        background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        margin-right: 70px;
+
+        .block_with_drone_describe {
+            margin-top: 75px;
+            margin-left: 35px;
+            
+
+            .p_offer_only_today {
+                width: 241px;
+                font-family: 'Hind Siliguri';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 27px;
+                text-transform: uppercase;
+                color: #F4F9FC;
+                opacity: 0.6;
+            }
+
+            .h2_tile_drone {
+                font-family: 'Hind Siliguri';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 31px;
+                line-height: 40px;
+                color: #F4F9FC;
+                padding-top: 5px;
+            }
+
+            .show_now {
+                width: 75px;
+                font-family: 'Hind Siliguri';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 27px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #F4F9FC;
+                padding-top: 7px;
+                
+            }
+
+            .bold_text_price_recent_products {
+                width: 20px;
+                font-family: 'Hind Siliguri';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 27px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #F4F9FC;
+                padding-top: 7px;
+            }
+        }
+
+        .button-add-cart {
+            margin-top: 11px;
+            width: 80px;
+            height: 30px;
+            background: #dfcb19;
+            font-family: 'Hind Siliguri';
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 26px;
+            text-transform: uppercase;
+            color: #2d3bbd;
+            border: none;
+        }
+
+        .counter-wrapper {
+            display: flex;
+            margin-top: 10px;
+
+            .items__control {
+                background-color: silver;
+                width: 30px;
+                height: 20px;
+                text-align: center;
+                cursor: pointer;
+                display: block;
+                border-radius: 5px;
+            }
+
+            .items__current {
+                background-color: red;
+                width: 30px;
+                height: 20px;
+                text-align: center;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    .block_with_special_offer_camera {
+        display: flex;
+        width: 580px;
+        background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+
+        .block_with_camera_describe {
+            margin-top: 75px;
+            margin-left: 35px;
+            
+            .p_offer_only_today {
+                width: 241px;
+                font-family: 'Hind Siliguri';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 27px;
+                text-transform: uppercase;
+                color: #F4F9FC;
+                opacity: 0.6;
+            }
+
+            .h2_tile_camera {
+                width: 258px;
+                font-family: 'Hind Siliguri';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 31px;
+                line-height: 40px;
+                color: #F4F9FC;
+                padding-top: 5px;
+            }
+
+            .show_now {
+                width: 75px;
+                font-family: 'Hind Siliguri';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 27px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #F4F9FC;
+                padding-top: 7px;    
+            }
+            
+            .bold_text_price_recent_products {
+                width: 20px;
+                font-family: 'Hind Siliguri';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 27px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #F4F9FC;
+                padding-top: 7px;
+            }
+        }
+
+        .button-add-cart {
+            margin-top: 11px;
+            width: 80px;
+            height: 30px;
+            background: #dfcb19;
+            font-family: 'Hind Siliguri';
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 26px;
+            text-transform: uppercase;
+            color: #2d3bbd;
+            border: none;
+        }
+
+        .counter-wrapper {
+            display: flex;
+            margin-top: 10px;
+            padding-bottom: 10px;
+
+            .items__control {
+                background-color: silver;
+                width: 30px;
+                height: 20px;
+                text-align: center;
+                cursor: pointer;
+                display: block;
+                border-radius: 5px;
+            }
+
+            .items__current {
+                background-color: red;
+                width: 30px;
+                height: 20px;
+                text-align: center;
+                border-radius: 5px;
+            }
+        }
+
+        .camera_image_block_special_offer {
+            width: 238px;
+        }
+    }
+}

@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diploma Project</title>
+    <link rel="stylesheet" href="main.css" id="light_theme">
+</head>
+<body>
+    <header>
+        <img src="images/icons_header/logo.svg" class="logo_header" alt="">
+        <nav class="header_navigation_menu">
+            <a href="" class="home">Home <img src="images/icons_header/vector.svg" class="vector_header" alt=""></a>
+            <a href="">About <img src="images/icons_header/vector.svg" class="vector_header" alt=""></a>
+            <a href="">Product <img src="images/icons_header/vector.svg" class="vector_header" alt=""></a>
+            <a href="">blog <img src="images/icons_header/vector.svg" class="vector_header" alt=""></a>
+            <a href="">shop <img src="images/icons_header/vector.svg" class="vector_header" alt=""></a>
+            <a href="">Contact us</a>
+        </nav>
+        <div class="icons_for_user">
+            <div class="light_theme_icon_header">
+                <img src="images/icons_header/loupe.svg" class="icon_loupe" alt="">
+                <img src="images/dark_theme/loupe_dark_theme.svg" class="loupe_dark_theme" alt="">
+            </div>
+            
+                <img src="images/icons_header/basket.svg" class="icon_basket light_theme_icon_header" alt="">
+                <!-- light theme -->
+                <img src="images/dark_theme/cart_dark_theme.png" class="cart_dark_theme" alt="">
+                <!-- light theme -->
+            
+            <div>
+                <img src="images/icons_header/user_icon.svg" class="icon_user_header" alt="">
+            </div>    
+        </div>
+        <button class="switch_mode" id="switch_mode">Switch</button>
+    </header>
+    <a href="#" id="scroll_down"><span><img src="images/scroll_up_down/down-arrow-svgrepo-com.svg" alt=""></span></a>
+    <a href="#" id="scroll_down_dark_theme"><span><img src="images/dark_theme/arrow_down_dark_theme.png" alt=""></span></a>
+    <a href="#" id="scroll_up"><span><img src="images/scroll_up_down/up-arrow-svgrepo-com.svg" alt=""></span></a>
+    <a href="#" id="scroll_up_dark_theme"><span><img src="images/dark_theme/arrow_up_dark_theme.png" alt=""></span></a>
+    <div class="block_title">
+        <div>
+            <div class="block_title_information_title">
+                <p class="favorite_brands">Favorite brands</p>
+                <h1 class="title_h1"><span class="title_span">An exciting place</span><span class="second_part_dark_theme"> the whole family to shop.</span></h1>
+                <p class="title_describe">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
+            </div>
+        </div>
+        <!-- Слайдер на React -->
+
+        <!-- Слайдер на React -->
+
+        <!-- Слайдер на JS -->
+            <div class="slider">
+                <div class="item">
+                    <img src="images/images_different_goods/drone (1).jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="images/images_different_goods/game_mouse (1).jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="images/images_different_goods/headsets (1).png" alt="">
+                </div>
+                <div class="item">
+                    <img src="images/images_different_goods/iwatch (1).png" alt="">
+                </div>
+            </div>
+        <!-- Слайдер на JS -->
+    </div>
+    <div id="react_app"></div>
+    <div class="block_logo_companies">
+        <img src="images/block_with_logo_companies/cl_logo_1.svg" class="logo_companies_1" alt="">
+        <img src="images/block_with_logo_companies/cl_logo_2.svg" class="logo_companies_other_style" alt="">
+        <img src="images/block_with_logo_companies/cl_logo_3.svg" class="logo_companies_other_style" alt="">
+        <img src="images/block_with_logo_companies/cl_logo_4.svg" class="logo_companies_other_style" alt="">
+    </div>
+
+
+
+    <!-- Корзина -->
+    <div class="cart_for_products">
+        <h5 class="card_title">Your order</h4>
+        <div class="cart_wrapper"></div>
+        <span class="total_price">0</span>
+        <button class="close_cart">Close Cart</button>
+    </div>
+    <!-- Корзина -->
+
+
+
+    <div class="block_recent_products">
+        <div class="cart_item">
+            <div class="card block_with_column_price" data-id="01">
+                <img src="images/block_recent_products/column.svg" class="product_image product_image_small" alt="">
+                <div class="block_information_column">
+                    <h2 class="title_always_in_style">Waterproof Speaker</h2>
+                    <p class="describe_about_column">The standard chunk of Lorem Ipsum below for those interested. The standard chunk of for those interested.</p>
+                    <span class="bold_text_price_recent_products price__currency">250</span>
+                    <span class="slash_block_information_column">/</span>
+                    <span class="light_text_price_recent_products">$ 300</span>
+                    <div class="stars_buy">
+                        <span><img src="images/block_recent_products/four_stars.svg" class="four_stars_block_information_column" alt=""></span>
+                        <button data-cart type="button" class="button-add-cart">Buy</button>
+                    </div>
+                    <!-- Счетчик -->
+                    <div class="items counter-wrapper">
+                        <div class="items__control" data-action="minus">-</div>
+                        <div class="items__current" data-counter>1</div>
+                        <div class="items__control" data-action="plus">+</div>
+                    </div>
+                    <!-- Счетчик -->
+                </div>
+            </div>
+        </div>
+        <div class="cart_item">
+            <div class="card block_with_headsets_price" data-id="02">
+                <img src="images/block_recent_products/headset.svg" class="product_image" alt="">
+                <div class="block_information_headsets">
+                    <h2 class="title_always_in_style">Headphones</h2>
+                    <p class="describe_about_column">The standard chunk of Lorem Ipsum below for those interested. The standard chunk of for those interested.</p>
+                    <span class="bold_text_price_recent_products">150</span>
+                    <span class="slash_block_information_column">/</span>
+                    <span class="light_text_price_recent_products">$ 250</span>
+                    <div class="stars_buy">
+                        <p><img src="images/block_recent_products/four_stars.svg" class="four_stars_block_information_column" alt=""></p>
+                        <button data-cart type="button" class="button-add-cart">Buy</button>
+                    </div>
+                    <!-- Счетчик -->
+                    <div class="items counter-wrapper">
+                        <div class="items__control" data-action="minus">-</div>
+                        <div class="items__current" data-counter>1</div>
+                        <div class="items__control" data-action="plus">+</div>
+                    </div>
+                    <!-- Счетчик -->    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block_special_offer">
+        <div class="cart_item">
+            <div class="card block_with_special_offer_drone" data-id="03">
+                <div class="block_with_drone_describe">
+                    <p class="p_offer_only_today">Get up to 20% off Today Only!</p>
+                    <h2 class="h2_tile_drone title_always_in_style">THE 4K HDR COMPACT DRONE</h2>
+                    <p class="bold_text_price_recent_products">500</p>
+                    <p class="show_now">Show Now</p>
+                    <div>
+                        <button data-cart type="button" class="button-add-cart">Buy</button>
+                        <div class="items counter-wrapper">
+                            <div class="items__control" data-action="minus">-</div>
+                            <div class="items__current" data-counter>1</div>
+                            <div class="items__control" data-action="plus">+</div>
+                        </div>
+                    </div>
+                </div>
+                <img src="images/block_special_offer/drone.svg" class="product_image drone_image_block_special_offer" alt="">
+            </div>
+        </div>
+        <div class="cart_item">
+            <div class="card block_with_special_offer_camera" data-id="04">
+                <div class="block_with_camera_describe">
+                    <p class="p_offer_only_today">Get up to 20% off Today Only!</p>
+                    <h2 class="h2_tile_camera title_always_in_style">THE 4K HDR COMPACT Camera</h2>
+                    <p class="bold_text_price_recent_products">500</p>
+                    <p class="show_now">Show Now</p>
+                    <div>
+                        <button data-cart type="button" class="button-add-cart">Buy</button>
+                        <div class="items counter-wrapper">
+                            <div class="items__control" data-action="minus">-</div>
+                            <div class="items__current" data-counter>1</div>
+                            <div class="items__control" data-action="plus">+</div>
+                        </div>
+                    </div>
+                </div>
+                <img src="images/dark_theme/camera_dark_theme.svg" class="product_image camera_image_block_special_offer" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="block_about_product_main">
+        <div class="block_about_product">
+            <p class="p_about_products">about Products</p>
+            <h2 class="h2_about_products">About For Products</h2>
+            <p class="describe_opacity_about_product">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly have suffered believable.</p>
+            <p class="describe_opacity_about_product">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+            <p class="other_text_posibilieties_about_product"><img src="images/block_about_for_products/icon_check_mark.svg" class="icon_check_mark_about_product" alt=""> There are many variations of passages of Lorem Ipsum</p>
+            <p class="other_text_posibilieties_about_product"><img src="images/block_about_for_products/icon_check_mark.svg" class="icon_check_mark_about_product" alt=""> There are many variations of passages of Lorem  Embarrassing middle of text.</p>
+            <p class="other_text_posibilieties_about_product"><img src="images/block_about_for_products/icon_check_mark.svg" class="icon_check_mark_about_product" alt=""> There are many variations of passages of Lorem Ipsum</p>
+            <p class="other_text_posibilieties_about_product"><img src="images/block_about_for_products/icon_check_mark.svg" class="icon_check_mark_about_product" alt=""> There are many variations of passages.</p>
+            <p class="other_text_posibilieties_about_product"><img src="images/block_about_for_products/icon_check_mark.svg" class="icon_check_mark_about_product" alt=""> There are many variations of passages.</p>
+        </div>    
+    </div>
+    <div class="block_popular_products">
+        <div class="title_block_popular_products">
+            <p class="p_title_block_popular_products">New Products</p>
+            <h2 class="h2_title_block_popular_products">Popular Products</h2>
+            <div class="flex_block_title_block_popular_products">
+                <span class="span_title_block_popular_products">Recent arrival</span>
+                <span class="span_title_block_popular_products">best sellers</span>
+                <span class="span_title_block_popular_products">special offers</span>
+                <span class="span_title_block_popular_products">featured in</span>
+            </div>
+        </div>
+        <div class="grid_block_popular_products">
+            <div class="cart_item">
+                <div class="card item_product_grid_block_popular_products" data-id="05">
+                    <p class="p_item_product_grid_block_popular_products">Get up to 10% off Today Only!</p>
+                    <img src="images/block_popular_products/mouse_apple/mouse_apple.svg" id="product" class="mouse_apple product_image" alt="">
+                    <h2 class="h2_item_product_grid_block_popular_products title_always_in_style">IOS Mouse</h2>
+                    <!-- <div class="block_icons_user"> -->
+                        <!-- <img src="images/block_popular_products/mouse_apple/basket.svg" id="icon_basket_buy" alt=""> -->
+                        <!-- <img src="images/block_popular_products/mouse_apple/loup.svg" alt="">
+                        <img src="images/block_popular_products/mouse_apple/like.svg" alt="">
+                        <img src="images/block_popular_products/mouse_apple/randomly.svg" alt=""> -->
+                    <!-- </div> -->
+                    <div class="block_price_color_offerstars">
+                        <span class="bold_text_price_popular_products bold_text_price_recent_products">200</span>
+                        <span class="slash_block_popular_products">/</span>
+                        <span class="light_text_price_popular_products">$ 230</span>
+                        <p><img src="images/block_popular_products/circles/five_stars.svg" class="five_stars_block_popular_products" alt=""></p>
+                        <!-- <div class="block_color_mouse">
+                            <img src="images/block_popular_products/circles/circle_pink.svg" alt="">
+                            <img src="images/block_popular_products/circles/circle_black.svg" alt="">
+                            <img src="images/block_popular_products/circles/circle_blue.svg" alt="">
+                        </div> -->
+                    </div>
+                    <div>
+                        <button data-cart type="button" class="button-add-cart">Buy</button>
+                        <div class="items counter-wrapper">
+                            <div class="items__control" data-action="minus">-</div>
+                            <div class="items__current" data-counter>1</div>
+                            <div class="items__control" data-action="plus">+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart_item">
+                <div class="card item_product_grid_block_popular_products_other" data-id="06">
+                    <p class="p_item_product_grid_block_popular_products">Get up to 20% off Today Only!</p>
+                    <img src="images/block_popular_products/column/column.svg" class="other_goods product_image" alt="">
+                    <h2 class="h2_item_product_grid_block_popular_products title_always_in_style">Black iPhone Speaker</h2>
+                    <span class="bold_text_price_popular_products bold_text_price_recent_products">50</span>
+                    <span class="slash_block_popular_products">/</span>
+                    <span class="light_text_price_popular_products">$ 70</span>
+                    <p><img src="images/block_popular_products/circles/five_stars.svg" class="five_stars_block_popular_products" alt=""></p>
+                    <div>
+                        <button data-cart type="button" class="button-add-cart">Buy</button>
+                        <div class="items counter-wrapper">
+                            <div class="items__control" data-action="minus">-</div>
+                            <div class="items__current" data-counter>1</div>
+                            <div class="items__control" data-action="plus">+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart_item">
+                <div class="card item_product_grid_block_popular_products_keyboard" data-id="07">
+                    <p class="p_keyboard">Get up to 50% off Today Only!</p>
+                    <img src="images/block_popular_products/keyboard/keyboard.svg" class="keyboard_good_image product_image" alt="">
+                    <h2 class="h2_item_keyboard title_always_in_style">iOS Keyboard</h2>
+                    <span class="bold_text_price_keyboard bold_text_price_recent_products">100</span>
+                    <span class="slash_keyboard">/</span>
+                    <span class="light_text_price_keyboard">$ 200</span>
+                    <p><img src="images/block_popular_products/keyboard/four_stars_without_one.svg" class="four_stars_without_one" alt=""></p>
+                    <div>
+                        <button data-cart type="button" class="button-add-cart">Buy</button>
+                        <div class="items counter-wrapper">
+                            <div class="items__control" data-action="minus">-</div>
+                            <div class="items__current" data-counter>1</div>
+                            <div class="items__control" data-action="plus">+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart_item">
+                <div class="card item_product_grid_block_popular_products_mackbook" data-id="08">
+                    <p class="p_mackbook">Get up to 50% off Today Only!</p>
+                    <img src="images/block_popular_products/macbook/mackbook.svg" class="mackbook_good_image product_image" alt="">
+                    <h2 class="h2_item_mackbook title_always_in_style">Mackbook Pro</h2>
+                    <span class="bold_text_price_mackbook bold_text_price_recent_products">2049.99</span>
+                    <span class="slash_mackbook">/</span>
+                    <span class="light_text_price_mackbook">$ 3000</span>
+                    <p><img src="images/block_popular_products/macbook/four_stars_without_one.svg" class="four_stars_without_one" alt=""></p>
+                    <div>
+                        <button data-cart type="button" class="button-add-cart">Buy</button>
+                        <div class="items counter-wrapper">
+                            <div class="items__control" data-action="minus">-</div>
+                            <div class="items__current" data-counter>1</div>
+                            <div class="items__control" data-action="plus">+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart_item">
+                <div class="card item_product_grid_block_popular_products_headset" data-id="09">
+                    <p class="p_headset">Get up to 50% off Today Only!</p>
+                    <img src="images/block_popular_products/headset/headset.svg" class="headset_good_image product_image" alt="">
+                    <h2 class="h2_item_headset title_always_in_style">Black Headphone</h2>
+                    <span class="bold_text_price_headset bold_text_price_recent_products">150</span>
+                    <span class="slash_headset">/</span>
+                    <span class="light_text_price_headset">$ 250</span>
+                    <p><img src="images/block_popular_products/headset/four_stars_without_one.svg" class="four_stars_without_one" alt=""></p>
+                    <div>
+                        <button data-cart type="button" class="button-add-cart">Buy</button>
+                        <div class="items counter-wrapper">
+                            <div class="items__control" data-action="minus">-</div>
+                            <div class="items__current" data-counter>1</div>
+                            <div class="items__control" data-action="plus">+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart_item">
+                <div class="card item_product_grid_block_popular_products_drone" data-id="10">
+                    <p class="p_drone">Get up to 50% off Today Only!</p>
+                    <img src="images/block_popular_products/drone/drone.svg" class="drone_good_image product_image" alt="">
+                    <h2 class="h2_item_drone title_always_in_style">iPhone Speaker</h2>
+                    <span class="bold_text_price_drone bold_text_price_recent_products">1500</span>
+                    <span class="slash_drone">/</span>
+                    <span class="light_text_price_drone">$ 2500</span>
+                    <p><img src="images/block_popular_products/drone/four_stars_without_one.svg" class="four_stars_without_one" alt=""></p>
+                    <div>
+                        <button data-cart type="button" class="button-add-cart">Buy</button>
+                        <div class="items counter-wrapper">
+                            <div class="items__control" data-action="minus">-</div>
+                            <div class="items__current" data-counter>1</div>
+                            <div class="items__control" data-action="plus">+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+    <div class="block_view_all">
+        <span class="span_block_view_all">view all</span>
+        <span><img src="images/block_view_all/right_arrow.svg" class="right_arrow_light_theme" alt=""></span>
+        <span><img src="images/block_view_all/arrowright_dark_theme.svg" class="right_arrow_dark_theme" alt=""></span>
+    </div>
+    <div class="block_shop">
+        <div class="block_shop_title">
+            <p class="p_block_shop_title">On sale soon</p>
+            <h2 class="h2_block_shop_title">Even more cool products</h2>
+            <p class="p_block_shop_title_describe">Our store is constantly updating the assortment, do not miss new items!</p>
+        </div>
+        <div class="flex_block_shop_products">
+            <div class="first_column_ipad_redcolumn">
+                <div class="box_1" >
+                    <!-- <span class="bold_text_price_column">$ 249.99</span>
+                    <span class="slash_column">/</span>
+                    <span class="light_text_price_column">$ 249.99</span>
+                    <p><img src="images/block_shop/four_stars_without_one.svg" class="four_stars_without_one" alt=""></p> -->
+                    <img src="images/block_shop/red_black_column.svg" class="red_black_column" id="product" alt="">
+                    <!-- <div class="block_icons_user">
+                        <img src="images/block_shop/basket.svg" id="icon_basket_buy" alt="">
+                        <img src="images/block_shop/loup.svg" alt="">
+                        <img src="images/block_shop/like.svg" alt="">
+                        <img src="images/block_shop/randomly.svg" alt="">
+                    </div> -->
+                </div>
+                <div class="box_2">
+                    <img src="images/block_shop/ipad_pro_12_silver.svg" class="ipad_pro_12_silver" alt="">
+                </div>
+            </div>
+            <div class="second_block_drone_column_mackbook">
+                <div class="box_3">
+                    <img src="images/block_shop/white_drone.svg" class="white_drone" alt="">
+                </div>
+                <div class="box_4">
+                    <img src="images/block_shop/column.svg" class="column" alt="">
+                </div>
+                <div class="box_5">
+                    <img src="images/block_shop/mackbook.svg" class="mackbook" alt="">
+                </div>
+            </div>
+            <div class="third_block_iphone_redheadsets">
+                <div class="box_6">
+                    <img src="images/block_shop/iphone_blue.svg" class="iphone_blue" alt="">
+                </div>
+                <div class="box_7">
+                    <img src="images/block_shop/red_headset.svg" class="red_headset" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact_us">
+        <div class="first_block_info_contact_us">
+            <p class="first_p">User Contact</p>
+            <h2 class="second_h2">Contact Us for those interested.</h2>
+            <p class="third_p">Subscribe to our updates to always be up to date with new cool news.</p>
+        </div>
+        <div class="second_block_info_contact_us">
+            <input type="email" name="email-address" placeholder="Enter your email address" class="input_email_address">
+            <input type="submit" name="submit" value="SUBSCRIBE" class="input_submit_subscribe">
+        </div>
+    </div>
+    <footer>
+        <div class="block_main">
+            <img src="images/footer/icon_linkedin.svg" class="icon_linkedin" alt="">
+            <p><img src="images/footer/icon_linkedin_name.svg" alt=""></p>
+            <p class="p_block_main">STORE - worldwide fashion store since 1978. We sell over 1000+ branded products on our web-site.</p>
+        </div>
+        <div class="first_block_information">
+            <h3 class="h3_first_block_information">INFORMATION</h3>
+            <a href="" class="first_block_information_link">New Collection</a>
+            <a href="" class="first_block_information_link">About Store</a>
+            <a href="" class="first_block_information_link">Contact Us</a>
+            <a href="" class="first_block_information_link">Latest News</a>
+            <a href="" class="first_block_information_link">Our Sitemap</a>
+            <a href="" class="first_block_information_link">Orders History</a>
+        </div>
+        <div class="second_block_about_the_store">
+            <h3 class="h3_second_block_about_the_store">ABOUT THE STORE</h3>
+            <p class="p_second_block_about_the_store">STORE - worldwide fashion store since 1978. We sell over 1000+ branded products on our web-site.</p>
+            <a href="" class="a_second_block_about_the_store">www.company.com</a>
+            <div class="footer_social_icons">
+                <img src="images/footer/facebook_icon.svg" alt="">
+                <img src="images/footer/instagram_icon.svg" alt="">
+                <img src="images/footer/twitter_icon.svg" alt="">
+                <img src="images/footer/footer_linkedin.svg" alt="">
+                <img src="images/footer/youtube_icon.svg" alt="">
+            </div>
+            <div class="switch_language">
+                <img src="images/footer/globe.svg" alt="">
+                <span class="text_switch_language">English <img src="images/footer/vector.svg" alt=""></span>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <!-- <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script> -->
+
+    <!-- <script src="code js/slick.min.js"></script> -->
+    <!-- <script src="code js/react_app.js"></script> -->
+    <script src="code js/calcCartPrice.js"></script>
+    <!-- <script src="code js/like_button.js"></script> -->
+    <script src="code js/basket.js"></script>
+    <script src="code js/counter.js"></script>
+    <script src="code js/slider.js"></script>
+    <script src="code js/scroll_up_down.js"></script>
+    <script src="code js/switch_theme.js"></script>
+</body>
+</html>

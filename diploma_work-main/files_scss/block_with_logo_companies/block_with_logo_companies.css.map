@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,qBAAsB;EAClB,OAAO,EAAE,IAAI;EACb,KAAK,EAAE,MAAM;EACb,MAAM,EAAE,MAAM;EACd,UAAU,EAAE,IAAI;EAChB,UAAU,EAAE,OAAO;EACnB,UAAU,EAAE,4TAA4T;EACxU,aAAa,EAAE,GAAG;EAElB,uCAAkB;IACd,WAAW,EAAE,IAAI;IACjB,YAAY,EAAE,KAAK;IACnB,cAAc,EAAE,IAAI;EAGxB,iDAA4B;IACxB,WAAW,EAAE,IAAI;IACjB,YAAY,EAAE,IAAI;IAClB,cAAc,EAAE,IAAI",
+"sources": ["block_with_logo_companies.scss"],
+"names": [],
+"file": "block_with_logo_companies.css"
+}

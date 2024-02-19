@@ -1,0 +1,206 @@
+.block_recent_products {
+  display: flex;
+  width: 1240px;
+  margin: 0 auto;
+  margin-top: 110px;
+}
+.block_recent_products .block_with_column_price {
+  display: flex;
+  margin-right: 145px;
+}
+.block_recent_products .block_with_column_price .block_information_column .title_always_in_style {
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 40px;
+  text-align: center;
+  color: #030D15;
+  padding-top: 27px;
+  padding-right: 15px;
+}
+.block_recent_products .block_with_column_price .block_information_column .describe_about_column {
+  width: 256px;
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #030D15;
+  opacity: 0.6;
+  padding-left: 30px;
+  padding-top: 9px;
+  padding-bottom: 20px;
+}
+.block_recent_products .block_with_column_price .block_information_column .bold_text_price_recent_products {
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #030D15;
+  padding-left: 30px;
+}
+.block_recent_products .block_with_column_price .block_information_column .slash_block_information_column {
+  opacity: 0.5;
+}
+.block_recent_products .block_with_column_price .block_information_column .light_text_price_recent_products {
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: center;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  color: #030D15;
+  opacity: 0.5;
+}
+.block_recent_products .block_with_column_price .block_information_column .four_stars_block_information_column {
+  padding-top: 15px;
+  padding-left: 32px;
+}
+.block_recent_products .block_with_column_price .counter-wrapper {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.block_recent_products .block_with_column_price .counter-wrapper .items__control {
+  background-color: silver;
+  width: 30px;
+  height: 20px;
+  text-align: center;
+  cursor: pointer;
+  display: block;
+  border-radius: 5px;
+}
+.block_recent_products .block_with_column_price .counter-wrapper .items__control:hover {
+  background-color: chocolate;
+}
+.block_recent_products .block_with_column_price .counter-wrapper .items__current {
+  background-color: red;
+  width: 30px;
+  height: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+.block_recent_products .block_with_column_price .button-add-cart {
+  margin-top: 11px;
+  width: 80px;
+  height: 30px;
+  background: #247CC0;
+  font-family: "Hind Siliguri";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+}
+.block_recent_products .block_with_column_price .button-add-cart:hover {
+  background-color: chocolate;
+  color: white;
+}
+.block_recent_products .block_with_headsets_price {
+  display: flex;
+}
+.block_recent_products .block_with_headsets_price .block_information_headsets .title_always_in_style {
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 40px;
+  text-align: center;
+  color: #030D15;
+  padding-top: 27px;
+  padding-right: 90px;
+}
+.block_recent_products .block_with_headsets_price .block_information_headsets .describe_about_column {
+  width: 256px;
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #030D15;
+  opacity: 0.6;
+  padding-left: 30px;
+  padding-top: 9px;
+  padding-bottom: 20px;
+}
+.block_recent_products .block_with_headsets_price .block_information_headsets .bold_text_price_recent_products {
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #030D15;
+  padding-left: 30px;
+}
+.block_recent_products .block_with_headsets_price .block_information_headsets .slash_block_information_column {
+  opacity: 0.5;
+}
+.block_recent_products .block_with_headsets_price .block_information_headsets .light_text_price_recent_products {
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: center;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  color: #030D15;
+  opacity: 0.5;
+}
+.block_recent_products .block_with_headsets_price .block_information_headsets .four_stars_block_information_column {
+  padding-top: 15px;
+  padding-left: 32px;
+}
+.block_recent_products .block_with_headsets_price .stars_buy {
+  display: flex;
+}
+.block_recent_products .block_with_headsets_price .button-add-cart {
+  margin-top: 11px;
+  width: 80px;
+  height: 30px;
+  background: #247CC0;
+  font-family: "Hind Siliguri";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+}
+.block_recent_products .block_with_headsets_price .button-add-cart:hover {
+  background-color: chocolate;
+  color: white;
+}
+.block_recent_products .block_with_headsets_price .counter-wrapper {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.block_recent_products .block_with_headsets_price .counter-wrapper .items__control {
+  background-color: silver;
+  width: 30px;
+  height: 20px;
+  text-align: center;
+  cursor: pointer;
+  display: block;
+  border-radius: 5px;
+}
+.block_recent_products .block_with_headsets_price .counter-wrapper .items__control:hover {
+  background-color: chocolate;
+}
+.block_recent_products .block_with_headsets_price .counter-wrapper .items__current {
+  background-color: red;
+  width: 30px;
+  height: 20px;
+  text-align: center;
+  border-radius: 5px;
+}

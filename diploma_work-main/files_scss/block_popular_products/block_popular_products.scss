@@ -1,0 +1,620 @@
+.block_popular_products {
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 125px;
+
+    .title_block_popular_products {
+        width: 490px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+
+        .p_title_block_popular_products {
+            text-align: center;
+            font-family: 'Hind Siliguri';
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 23px;
+            letter-spacing: 0.145em;
+            text-transform: uppercase;
+            color: #C72535;
+            opacity: 0.6;
+        }
+
+        .h2_title_block_popular_products {
+            text-align: center;
+            font-family: 'Hind Siliguri';
+            font-weight: 600;
+            font-size: 44px;
+            line-height: 71px;
+            color: #030D15;
+        }
+
+        .flex_block_title_block_popular_products {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+
+            .span_title_block_popular_products {
+                font-family: 'Hind Siliguri';
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 23px;
+                text-transform: uppercase;
+                color: #C72535;
+            }
+        }
+    }
+
+    .grid_block_popular_products {
+        display: grid;
+        grid-template-columns: 360px 360px 360px;
+        gap: 30px;
+
+        .item_product_grid_block_popular_products {
+            background: #FFFFFF;
+            box-shadow: 0px 100px 80px rgba(191, 191, 191, 0.07), 0px 41.7776px 33.4221px rgba(191, 191, 191, 0.0503198), 0px 22.3363px 17.869px rgba(191, 191, 191, 0.0417275), 0px 12.5216px 10.0172px rgba(191, 191, 191, 0.035), 0px 6.6501px 5.32008px rgba(191, 191, 191, 0.0282725), 0px 2.76726px 2.21381px rgba(191, 191, 191, 0.0196802);
+
+            .mouse_apple {
+                padding-left: 35px;
+            }
+
+            .p_item_product_grid_block_popular_products {
+                font-family: 'Hind Siliguri';
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 27px;
+                color: #030D15;
+                padding-top: 35px;
+                margin-left: 35px;
+            }
+
+            .block_icons_user {
+                display: flex;
+                width: 360px;
+                justify-content: space-around;
+                margin-bottom: 41px;
+            }
+
+            .h2_item_product_grid_block_popular_products {
+                    font-family: 'Hind Siliguri';
+                    font-weight: 600;
+                    font-size: 25px;
+                    line-height: 40px;
+                    color: #030D15;
+                    padding-left: 35px;
+                    // padding-top: 35px;
+                }
+
+            .block_price_color_offerstars {
+                width: 360px;
+
+                .bold_text_price_popular_products {
+                    font-family: 'Hind Siliguri';
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 27px;
+                    color: #030D15;
+                    padding-left: 35px;
+                }
+
+                .slash_block_popular_products {
+                    opacity: 0.5;
+                }
+
+                .light_text_price_popular_products {
+                    font-family: 'Hind Siliguri';
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 27px;
+                    text-decoration-line: line-through;
+                    color: #030D15;
+                    opacity: 0.5;
+                }
+
+                .five_stars_block_popular_products {
+                    padding-left: 35px;
+                }
+
+                // .block_color_mouse {
+                //     display: flex;
+                //     justify-content: space-between;
+                //     position: relative;
+                //     left: 200px;
+                //     bottom: 25px;
+                //     width: 65px;
+                // }
+            }
+
+            .button-add-cart {
+                margin-left: 36px;
+                margin-top: 11px;
+                width: 80px;
+                height: 30px;
+                background: #247CC0;
+                font-family: 'Hind Siliguri';
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 26px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                border: none;
+            }
+    
+            .counter-wrapper {
+                display: flex;
+                margin-left: 30px;
+                margin-top: 10px;
+                padding-bottom: 10px;
+    
+                .items__control {
+                    background-color: silver;
+                    width: 30px;
+                    height: 20px;
+                    text-align: center;
+                    cursor: pointer;
+                    display: block;
+                    border-radius: 5px;
+                }
+    
+                .items__current {
+                    background-color: red;
+                    width: 30px;
+                    height: 20px;
+                    text-align: center;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+
+    .item_product_grid_block_popular_products_other {
+        background: #FFFFFF;
+        box-shadow: 0px 100px 80px rgba(191, 191, 191, 0.07), 0px 41.7776px 33.4221px rgba(191, 191, 191, 0.0503198), 0px 22.3363px 17.869px rgba(191, 191, 191, 0.0417275), 0px 12.5216px 10.0172px rgba(191, 191, 191, 0.035), 0px 6.6501px 5.32008px rgba(191, 191, 191, 0.0282725), 0px 2.76726px 2.21381px rgba(191, 191, 191, 0.0196802);
+
+        .p_item_product_grid_block_popular_products {
+            font-family: 'Hind Siliguri';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 27px;
+            padding-top: 35px;
+            padding-left: 35px;
+        }
+
+        .other_goods {
+            padding-left: 35px;
+        }
+
+        .h2_item_product_grid_block_popular_products {
+            font-family: 'Hind Siliguri';
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 40px;
+            color: #030D15;
+            padding-top: 35px;
+            padding-left: 35px;
+        }
+
+        .bold_text_price_popular_products {
+            font-family: 'Hind Siliguri';
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 27px;
+            color: #030D15;
+            padding-left: 35px;
+        }
+
+        .slash_block_popular_products {
+            opacity: 0.5;
+        }
+
+        .light_text_price_popular_products {
+            font-family: 'Hind Siliguri';
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 27px;
+            text-decoration-line: line-through;
+            color: #030D15;
+            opacity: 0.5;
+        }
+
+        .five_stars_block_popular_products {
+            padding-left: 35px;
+        }
+
+        .button-add-cart {
+            margin-left: 36px;
+            margin-top: 11px;
+            width: 80px;
+            height: 30px;
+            background: #247CC0;
+            font-family: 'Hind Siliguri';
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 26px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            border: none;
+        }
+
+        .counter-wrapper {
+            display: flex;
+            margin-left: 30px;
+            margin-top: 15px;
+            padding-bottom: 10px;
+
+            .items__control {
+                background-color: silver;
+                width: 30px;
+                height: 20px;
+                text-align: center;
+                cursor: pointer;
+                display: block;
+                border-radius: 5px;
+            }
+
+            .items__current {
+                background-color: red;
+                width: 30px;
+                height: 20px;
+                text-align: center;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    .item_product_grid_block_popular_products_keyboard {
+        background: #FFFFFF;
+        box-shadow: 0px 100px 80px rgba(191, 191, 191, 0.07), 0px 41.7776px 33.4221px rgba(191, 191, 191, 0.0503198), 0px 22.3363px 17.869px rgba(191, 191, 191, 0.0417275), 0px 12.5216px 10.0172px rgba(191, 191, 191, 0.035), 0px 6.6501px 5.32008px rgba(191, 191, 191, 0.0282725), 0px 2.76726px 2.21381px rgba(191, 191, 191, 0.0196802);
+
+        .p_keyboard {
+            font-family: 'Hind Siliguri';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 27px;
+            padding-top: 35px;
+            padding-left: 35px;
+            padding-bottom: 50px;
+        }
+
+        .keyboard_good_image {
+            padding-bottom: 80px;
+            margin-left: 30px;
+        }
+
+        .h2_item_keyboard {
+            font-family: 'Hind Siliguri';
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 40px;
+            color: #030D15;
+            padding-left: 35px;
+        }
+
+        .bold_text_price_keyboard {
+            font-family: 'Hind Siliguri';
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 27px;
+            padding-left: 35px;
+        }
+
+        .slash_keyboard {
+            opacity: 0.5;
+        }
+
+        .light_text_price_keyboard {
+            font-family: 'Hind Siliguri';
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 27px;
+            opacity: 0.5;
+        }
+
+        .four_stars_without_one {
+            padding-left: 35px;
+        }
+
+        .button-add-cart {
+            margin-left: 36px;
+            margin-top: 11px;
+            width: 80px;
+            height: 30px;
+            background: #247CC0;
+            font-family: 'Hind Siliguri';
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 26px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            border: none;
+        }
+
+        .counter-wrapper {
+            display: flex;
+            margin-left: 30px;
+            margin-top: 10px;
+            padding-bottom: 10px;
+
+            .items__control {
+                background-color: silver;
+                width: 30px;
+                height: 20px;
+                text-align: center;
+                cursor: pointer;
+                display: block;
+                border-radius: 5px;
+            }
+
+            .items__current {
+                background-color: red;
+                width: 30px;
+                height: 20px;
+                text-align: center;
+                border-radius: 5px;
+            }
+        }            
+    }
+
+    .item_product_grid_block_popular_products_mackbook {
+        background: #FFFFFF;
+        box-shadow: 0px 100px 80px rgba(191, 191, 191, 0.07), 0px 41.7776px 33.4221px rgba(191, 191, 191, 0.0503198), 0px 22.3363px 17.869px rgba(191, 191, 191, 0.0417275), 0px 12.5216px 10.0172px rgba(191, 191, 191, 0.035), 0px 6.6501px 5.32008px rgba(191, 191, 191, 0.0282725), 0px 2.76726px 2.21381px rgba(191, 191, 191, 0.0196802);
+
+        .p_mackbook {
+            font-family: 'Hind Siliguri';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 27px;
+            padding-top: 35px;
+            padding-left: 35px;
+        }
+
+        .h2_item_mackbook {
+            font-family: 'Hind Siliguri';
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 40px;
+            color: #030D15;
+            padding-left: 35px;
+        }
+
+        .bold_text_price_mackbook {
+            font-family: 'Hind Siliguri';
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 27px;
+            padding-left: 35px;
+        }
+
+        .slash_mackbook {
+            opacity: 0.5;
+        }
+
+        .light_text_price_mackbook {
+            font-family: 'Hind Siliguri';
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 27px;
+            opacity: 0.5;
+        }
+
+        .four_stars_without_one {
+            padding-left: 35px;
+        }
+
+        .button-add-cart {
+            margin-left: 36px;
+            margin-top: 11px;
+            width: 80px;
+            height: 30px;
+            background: #247CC0;
+            font-family: 'Hind Siliguri';
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 26px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            border: none;
+        }
+
+        .counter-wrapper {
+            display: flex;
+            margin-left: 30px;
+            margin-top: 10px;
+            padding-bottom: 10px;
+
+            .items__control {
+                background-color: silver;
+                width: 30px;
+                height: 20px;
+                text-align: center;
+                cursor: pointer;
+                display: block;
+                border-radius: 5px;
+            }
+
+            .items__current {
+                background-color: red;
+                width: 30px;
+                height: 20px;
+                text-align: center;
+                border-radius: 5px;
+            }
+        }        
+    }
+
+    .item_product_grid_block_popular_products_headset {
+        background: #FFFFFF;
+        box-shadow: 0px 100px 80px rgba(191, 191, 191, 0.07), 0px 41.7776px 33.4221px rgba(191, 191, 191, 0.0503198), 0px 22.3363px 17.869px rgba(191, 191, 191, 0.0417275), 0px 12.5216px 10.0172px rgba(191, 191, 191, 0.035), 0px 6.6501px 5.32008px rgba(191, 191, 191, 0.0282725), 0px 2.76726px 2.21381px rgba(191, 191, 191, 0.0196802);
+
+        .p_headset {
+            font-family: 'Hind Siliguri';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 27px;
+            padding-top: 35px;
+            padding-left: 35px;
+        }
+
+        .h2_item_headset {
+            font-family: 'Hind Siliguri';
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 40px;
+            color: #030D15;
+            padding-left: 35px;
+            padding-top: 45px;
+        }
+
+        .bold_text_price_headset {
+            font-family: 'Hind Siliguri';
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 27px;
+            padding-left: 35px;
+        }
+
+        .slash_headset {
+            opacity: 0.5;
+        }
+
+        .light_text_price_headset {
+            font-family: 'Hind Siliguri';
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 27px;
+            opacity: 0.5;
+        }
+
+        .four_stars_without_one {
+            padding-left: 35px;
+        }
+
+        .button-add-cart {
+            margin-left: 36px;
+            margin-top: 11px;
+            width: 80px;
+            height: 30px;
+            background: #247CC0;
+            font-family: 'Hind Siliguri';
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 26px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            border: none;
+        }
+
+        .counter-wrapper {
+            display: flex;
+            margin-left: 30px;
+            margin-top: 15px;
+            padding-bottom: 10px;
+
+            .items__control {
+                background-color: silver;
+                width: 30px;
+                height: 20px;
+                text-align: center;
+                cursor: pointer;
+                display: block;
+                border-radius: 5px;
+            }
+
+            .items__current {
+                background-color: red;
+                width: 30px;
+                height: 20px;
+                text-align: center;
+                border-radius: 5px;
+            }
+        } 
+    }
+
+    .item_product_grid_block_popular_products_drone {
+        background: #FFFFFF;
+        box-shadow: 0px 100px 80px rgba(191, 191, 191, 0.07), 0px 41.7776px 33.4221px rgba(191, 191, 191, 0.0503198), 0px 22.3363px 17.869px rgba(191, 191, 191, 0.0417275), 0px 12.5216px 10.0172px rgba(191, 191, 191, 0.035), 0px 6.6501px 5.32008px rgba(191, 191, 191, 0.0282725), 0px 2.76726px 2.21381px rgba(191, 191, 191, 0.0196802);
+
+        .p_drone {
+            font-family: 'Hind Siliguri';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 27px;
+            padding-top: 35px;
+            padding-left: 35px;
+        }
+
+        .h2_item_drone {
+            font-family: 'Hind Siliguri';
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 40px;
+            color: #030D15;
+            padding-left: 35px;
+            padding-top: 55px;
+        }
+
+        .bold_text_price_drone {
+            font-family: 'Hind Siliguri';
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 27px;
+            padding-left: 35px;
+        }
+
+        .slash_drone {
+            opacity: 0.5;
+        }
+
+        .light_text_price_drone {
+            font-family: 'Hind Siliguri';
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 27px;
+            opacity: 0.5;
+        }
+
+        .four_stars_without_one {
+            padding-left: 35px;
+        }
+
+        .button-add-cart {
+            margin-left: 36px;
+            margin-top: 11px;
+            width: 80px;
+            height: 30px;
+            background: #247CC0;
+            font-family: 'Hind Siliguri';
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 26px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            border: none;
+        }
+
+        .counter-wrapper {
+            display: flex;
+            margin-left: 30px;
+            margin-top: 15px;
+            padding-bottom: 10px;
+
+            .items__control {
+                background-color: silver;
+                width: 30px;
+                height: 20px;
+                text-align: center;
+                cursor: pointer;
+                display: block;
+                border-radius: 5px;
+            }
+
+            .items__current {
+                background-color: red;
+                width: 30px;
+                height: 20px;
+                text-align: center;
+                border-radius: 5px;
+            }
+        } 
+    }
+}

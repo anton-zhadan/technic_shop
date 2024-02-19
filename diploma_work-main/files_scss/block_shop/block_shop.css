@@ -1,0 +1,120 @@
+.block_shop {
+  width: 1140px;
+  margin: 0 auto;
+  margin-top: 146px;
+}
+.block_shop .block_shop_title {
+  width: 641px;
+  margin: 0 auto;
+}
+.block_shop .block_shop_title .p_block_shop_title {
+  font-family: "Hind Siliguri";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.145em;
+  text-transform: uppercase;
+  color: #C72535;
+  opacity: 0.6;
+}
+.block_shop .block_shop_title .h2_block_shop_title {
+  font-family: "Hind Siliguri";
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 71px;
+  text-align: center;
+}
+.block_shop .block_shop_title .p_block_shop_title_describe {
+  width: 457px;
+  font-family: "Hind Siliguri";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  opacity: 0.6;
+  padding-left: 80px;
+}
+.block_shop .flex_block_shop_products {
+  display: flex;
+  margin-top: 50px;
+  padding-bottom: 130px;
+}
+.block_shop .flex_block_shop_products .first_column_ipad_redcolumn .box_1 {
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 35px;
+}
+.block_shop .flex_block_shop_products .first_column_ipad_redcolumn .box_1 .bold_text_price_column {
+  font-family: "Hind Siliguri";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  padding-left: 35px;
+}
+.block_shop .flex_block_shop_products .first_column_ipad_redcolumn .box_1 .slash_column {
+  opacity: 0.5;
+}
+.block_shop .flex_block_shop_products .first_column_ipad_redcolumn .box_1 .light_text_price_column {
+  font-family: "Hind Siliguri";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 27px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  opacity: 0.5;
+}
+.block_shop .flex_block_shop_products .first_column_ipad_redcolumn .box_1 .four_stars_without_one {
+  padding-left: 35px;
+}
+.block_shop .flex_block_shop_products .first_column_ipad_redcolumn .box_1 .block_icons_user {
+  display: flex;
+  width: 360px;
+  justify-content: space-around;
+  padding-bottom: 26px;
+}
+.block_shop .flex_block_shop_products .first_column_ipad_redcolumn .box_1 .red_black_column {
+  padding-top: 77px;
+  padding-left: 67px;
+  padding-bottom: 85px;
+}
+.block_shop .flex_block_shop_products .first_column_ipad_redcolumn .box_2 {
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+.block_shop .flex_block_shop_products .first_column_ipad_redcolumn .box_2 .ipad_pro_12_silver {
+  padding: 47px 44px 47px 30px;
+}
+.block_shop .flex_block_shop_products .second_block_drone_column_mackbook {
+  margin-left: 30px;
+}
+.block_shop .flex_block_shop_products .second_block_drone_column_mackbook .box_3 {
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+.block_shop .flex_block_shop_products .second_block_drone_column_mackbook .box_3 .white_drone {
+  padding: 18px 26px 18px 26px;
+}
+.block_shop .flex_block_shop_products .second_block_drone_column_mackbook .box_4 {
+  margin-bottom: 30px;
+}
+.block_shop .flex_block_shop_products .second_block_drone_column_mackbook .box_5 {
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 27px 39px 27px 39px;
+}
+.block_shop .flex_block_shop_products .third_block_iphone_redheadsets {
+  margin-left: 30px;
+}
+.block_shop .flex_block_shop_products .third_block_iphone_redheadsets .box_6 {
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.block_shop .flex_block_shop_products .third_block_iphone_redheadsets .box_6 .iphone_blue {
+  padding: 36px 35px 45px 26px;
+}
+.block_shop .flex_block_shop_products .third_block_iphone_redheadsets .box_7 {
+  margin-top: 40px;
+}

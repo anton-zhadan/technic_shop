@@ -1,0 +1,25 @@
+@import './files_scss/block_header/header.css';
+@import './files_scss/scroll_up_down/scroll_up_down.css';
+@import './files_scss/block_title/block_title.css';
+@import './files_scss/block_with_logo_companies/block_with_logo_companies.css';
+@import './files_scss/block_recent_products/block_recent_products.css';
+@import './files_scss/block_special_offer/block_special_offer.css';
+@import './files_scss/block_about_product/block_about_product.css';
+@import './files_scss/block_popular_products/block_popular_products.css';
+@import './files_scss/block_view_all/block_view_all.css';
+@import './files_scss/block_shop/block_shop.css';
+@import './files_scss/contact_us/contact_us.css';
+@import './files_scss/block_footer/block_footer.css';
+@import './files_scss/slider/slider.css';
+@import './files_scss/basket/basket.css';
+
+@font-face {
+    font-family: 'Hind Siliguri';
+    src: url('fonts_for_texts/HindSiliguri-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
